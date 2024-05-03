@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+ font-family: 'Noto Sans' ;
+ }
+
+body{
+  margin: 0;
+
+}
+
+section.top-page{
+  padding: 50px;
+  background-image: url(images/NSI_site_forest.jpg);
+  background-size: cover;
+  height: 80vh;
+
+}
+
+
+ /* Menu de navigation */
+
+
+header.head {
+  display: flex;
+  align-items: center;
+}
+
+#logo-ensemble{
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+}
+
+
+
+barre {
+  position: relative;
+  background-color: white;
+  border-radius: 30px;
+  height: 5px;
+  margin: 3px;
+}
+
+#nav{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin-left: 30px;
+  transition: 1s;
+  opacity: 1;
+  
+}
+a{
+  
+  text-decoration: none;
+  color: white;
+}
+
+
+.ligne{
+  margin-right: 10px;
+  border-radius: 2px;
+  padding: 10px;
+  padding-top:4px;
+  padding-bottom:4px;
+  transition: 0.75s;
+}
+.ligne:hover {
+  background-color: rgb(255 255 255 / 40%);
+
+
+  
+}
+
+
+
+/*  titre */
+
+
+.landing-page{
+  margin: 30px;
+}
+
+.titre-principal{
+  position: relative;
+  padding-top: 7%;
+  color: white;
+  font-size: 60px;
+  font-family: 'Prata',cursive;
+  font-weight: bold;
+}
+
+
+ /* Introduction */
+
+#introduction{
+  border-top: #D4C8A0 1px dotted;
+  margin: 70px;
+  text-align: center;
+  
+  .section-title{
+    color: #1b2d20;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto';
+    padding:40px;
+    padding-bottom:50px;
+  }
+
+  .introduction-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    border-left: 5px dotted;
+
+    .bold{
+      font-weight: bolder;
+    }
+    .align{
+      display: flex;
+      flex-direction: row;
+
+      .intro-paragraph{
+        width: 60%;
+        letter-spacing: 1px;
+        padding-right: 20px;
+      }
+      .image-contenaire{
+        background-image: url("images/image-data-center.jpg");
+        background-size: cover;
+        height: auto;
+        width:40%;
+        position: relative;
+
+      }
+      
+      
+     
+    }
+  
+
+    
+  }
+}
+
+
+
+
+
+
